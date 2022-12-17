@@ -1,4 +1,4 @@
-rule WannaCry : BlackBasta {
+rule BlackBasta : BlackBasta {
     meta:
       description = "BlackBasta Payload present v1"
       author = "Rich Eicher"    

@@ -1,4 +1,4 @@
-rule WakBot : QakBot {
+rule QakBot : QakBot {
     meta:
       description = "QakBot Payload present v2"
       author = "Rich Eicher"    

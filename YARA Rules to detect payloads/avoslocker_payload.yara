@@ -3,9 +3,9 @@ rule avoslocker : avoslocker {
       description = "avoslocker payload present v1"
       author = "Rich Eicher"    
     strings:
-$a = { 6A 01 50 8D 45 0C 50 FF 75 F0 E8 76 9A FF FF 09 }
-$b = { E2 66 0F FE E8 66 0F DB D9 66 0F 72 D1 10 66 0F }
-$c = { 01 74 2F 83 F9 0C 75 42 85 F6 75 B0 8D 45 D8 50 }
+$a = { 55 8B EC 8B 45 08 83 E8 01 74 1E 83 E8 01 74 19 }
+$b = { 66 0F 7E D0 66 0F 73 DA 04 66 0F 7E D7 66 0F 73 }
+$c = { 9D 5C FC FF FF 8B 95 C0 F6 FF FF 85 D2 0F 84 48 }
 
     condition:
         any of them

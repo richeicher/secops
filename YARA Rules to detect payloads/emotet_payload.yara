@@ -1,7 +1,7 @@
 rule Emotet : Emotet {
     meta:
       description = "Emotet Payload present v1"
-      author = "Rich Eicher"    
+      author = "Rich Eicher rich.eicher@rubrik.com @richeicher"    
     strings:
 $a = { 4F 54 4E 44 4D 6B 42 4D 4D 6B 41 38 48 54 59 7A }
 $b = { 50 68 38 30 59 4D 2B 2B 78 4C 2F 4E 76 32 64 61 }

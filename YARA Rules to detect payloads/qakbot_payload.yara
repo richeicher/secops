@@ -1,6 +1,6 @@
 rule QakBot : QakBot {
     meta:
-      description = "QakBot Payload present v2"
+      description = "QakBot Payload present v3 4/20"
       author = "Rich Eicher"    
     strings:
 $a = { FF 83 C0 90 E9 97 30 FF FF 83 C0 90 E9 E7 1B FF }

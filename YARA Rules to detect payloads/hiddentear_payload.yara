@@ -1,6 +1,6 @@
 rule HiddenTear : HiddenTear {
     meta:
-      description = "Hidden Tear Payload present v3"
+      description = "Hidden Tear Payload present v4 4/20"
       author = "Rich Eicher rich.eicher@rubrik.com @richeicher"    
     strings:
 $a = { 3A F3 FF A0 A6 C5 FF D1 D1 D1 FF C8 C8 C8 FF C9 }

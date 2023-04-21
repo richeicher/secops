@@ -1,3 +1,5 @@
+This rule is currently not working - I will update shortly and update the version 
+
 rule avoslocker : avoslocker {
     meta:
       description = "avoslocker payload present v3"

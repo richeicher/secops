@@ -1,6 +1,6 @@
 rule BlackBasta : BlackBasta {
     meta:
-      description = "BlackBasta Payload present v1"
+      description = "BlackBasta Payload present v2 4/20"
       author = "Rich Eicher"    
     strings:
 $a = { AD A3 A3 B7 A3 D1 A3 E0 EA A3 A3 4F A3 03 BF A3 }

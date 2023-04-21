@@ -1,6 +1,6 @@
 rule zloader : zloader {
     meta:
-      description = "zloader payload present v1"
+      description = "zloader payload present v2 4/20"
       author = "Rich Eicher"    
     strings:
 $a = { CD CD CD CD 66 66 66 66 66 66 66 66 66 66 66 66 }

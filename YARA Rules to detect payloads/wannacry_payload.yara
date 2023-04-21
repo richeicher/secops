@@ -1,6 +1,6 @@
 rule WannaCry : WannaCry {
     meta:
-      description = "WannaCry Payload present v2"
+      description = "WannaCry Payload present v3 4/20"
       author = "Rich Eicher rich.eicher@rubrik.com @richeicher"    
     strings:
 $a = { 11 5D 3D C3 6A 41 31 C3 10 5D 3D C3 92 41 33 C3 }
